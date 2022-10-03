@@ -1,0 +1,30 @@
+.homepage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.homeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px;
+  min-width: 50vw;
+  margin-top: 50px;
+  line-height: 1.2;
+}
+
+.homeContainer h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.homeContainer p {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #323232;
+}

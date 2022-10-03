@@ -1,0 +1,128 @@
+.loginPage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.loginContainer h1 {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.btnContainer {
+  font-size: 13px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.googleBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  height: 40px;
+  background: #dd4b39;
+  position: relative;
+  color: #fff;
+}
+
+.googleBtn img {
+  width: 10%;
+  height: auto;
+  background: #fff;
+  object-fit: contain;
+  left: 10px;
+  border-radius: 3px;
+  position: absolute;
+}
+
+.facebookBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  height: 40px;
+  background: #1877f2;
+  position: relative;
+  color: #fff;
+}
+
+.facebookBtn img {
+  width: 10%;
+  height: auto;
+  background: transparent;
+  object-fit: contain;
+  left: 10px;
+  border-radius: 3px;
+  position: absolute;
+}
+
+.textThrough {
+   width: 50%;
+   text-align: center;
+   border-bottom: 1px solid grey;
+   line-height: 0.1rem;
+   margin: 20px 0 20px;
+}
+
+.textThrough span {
+    background:#fff;
+    padding:0 20px;
+}
+
+input[type=text],
+input[type=password] {
+  width: 45%;
+  height: 40px;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+input[type=text]:focus {
+  outline-color: #232a23;
+}
+
+input[type=submit] {
+  width: 45%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #23a429;
+}
+
+.textSignUp {
+  font-size: 0.9rem;
+}
+
+.textSignUp a {
+  color: blue;
+  text-decoration: none;
+}
+
+.textSignUp a:hover {
+  text-decoration: underline;
+}
