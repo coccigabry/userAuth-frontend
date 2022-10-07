@@ -1,4 +1,4 @@
-# User Authorization
+# User Authorization (frontend code)
 
 An internal tool for remote access through a user's existing account name and password.
 - Registration
