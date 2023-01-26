@@ -1,6 +1,4 @@
 # User Authorization (frontend code)
 
-An internal tool for remote access through a user's existing account name and password.
-- Registration
-- Google / Facebook Login 
-- Local Login
+A testing platform for remote access via oAuth and local login.
+[![My Skills](https://skills.thijs.gg/icons?i=mongodb,nodejs,react)](https://skills.thijs.gg)
